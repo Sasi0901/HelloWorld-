@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+   
+
+}
+.nav-list{
+    width: 70%;
+    
+    display: flex;
+   
+    align-items: center;
+}
+.nav-list li{
+    
+    padding: 26px 30px;
+    list-style: none;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey
+
+}
+
+.rightNav{
+    
+    width: 30%;
+    text-align: center;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    height: 20%;
+    
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url(https://anjali2201.github.io/CodingClub/image/R8.gif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.text-big{
+    font-size: 50px;
+    text-align: center;
+
+}
+.text-small{
+    font-size: 25px;
+    text-align: center;
+}
+.background2{
+    background: rgba(0, 0, 0, 0.7) url(https://anjali2201.github.io/CodingClub/image/r5.gif);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.secright{
+    height: 100vh;
+}
+.sectiontag{
+    color: whitesmoke;
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px; 
+}
+.sectionsubtag{
+    color: whitesmoke;
+    text-align: center;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    padding: 50px;
+    max-width: 813px;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.btn{
+    align-items: center;
+    padding: 8px 20px;
+    margin: 7px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 700px;
+    }
+    .box-main{
+        flex-direction: column;
+        max-width: 100px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    
+}
