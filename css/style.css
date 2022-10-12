@@ -69,7 +69,7 @@
     
 }
 .background{
-    background: rgba(0, 0, 0, 0.7) url(image/R8.gif);
+    background: rgba(0, 0, 0, 0.7) url(/image/R8.gif);
     background-size: cover;
     background-blend-mode: darken;
 }
@@ -104,7 +104,7 @@
     text-align: center;
 }
 .background2{
-    background: rgba(0, 0, 0, 0.7) url(image/r5.gif);
+    background: rgba(0, 0, 0, 0.7) url(/image/r5.gif);
     background-size: cover;
     background-blend-mode: darken;
 }
