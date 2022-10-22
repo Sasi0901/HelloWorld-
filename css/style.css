@@ -69,9 +69,10 @@
     
 }
 .background{
-    background: rgba(0, 0, 0, 0.7) url(/image/R8.gif);
+    background: rgba(0, 0, 0, 0.7) url(https://git-for-geeks.github.io/HelloWorld-/image/R8.gif);
     background-size: cover;
     background-blend-mode: darken;
+
 }
 .firstsection{
     height: 100vh;
